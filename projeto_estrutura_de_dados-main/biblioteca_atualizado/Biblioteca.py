@@ -10,10 +10,10 @@ class Biblioteca:
         self.historico_emprestimos = []  
         self.livros_emprestados = set() 
 
-    def cadastrar_livro(self, titulo, autor, isbn, faixa_etaria, quantidade):
+    def cadastrar_livro(self, titulo, autor, isbn, faixa_etaria, quantidade, data):
         print("\n--- Cadastro de Livro ---")
         try:
-            livro = Livro.Livro(titulo, autor, isbn, faixa_etaria, quantidade)
+            livro = Livro.Livro(titulo, autor, isbn, faixa_etaria, quantidade, data)
             self.livros.append(livro)
             print(f"Livro '{titulo}' cadastrado com sucesso!")
         except ValueError as e:
@@ -145,7 +145,8 @@ def main():
                 isbn = input("Digite o isbn (APENAS 13 DIGITOS): ")
                 faixa_etaria = input("Digite a faixa etaria da categoria do livro: ")
                 quantidade = input("Digite a quantidade de exemplares:")
-                biblioteca.cadastrar_livro(titulo, autor, isbn, faixa_etaria, quantidade)
+                data = input("Digite a data DD/MM/AAAA: ")
+                biblioteca.cadastrar_livro(titulo, autor, isbn, faixa_etaria, quantidade, data)
             case "2":
                 nome = input("Digite um nome:")
                 idade = int(input("Digite uma idade:"))
