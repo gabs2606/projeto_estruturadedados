@@ -14,7 +14,7 @@ Descrição principal: é um sistema CLI, desenvolvido em python, utlizando-se d
 - Edição e exclusão de livros e usuários
 
 # Tecnologias utilizadas:
-Para executar o sistema, você precisará ter o Python instalado 3.0.
+Para executar o sistema, você precisará ter o Python instalado 3.0 e para executar pode se utilizar uma IDE como visual studio code.
 
 #Estrutura de dados:
 - Listas: Utilizadas para armazenar os livros e usuários cadastrados, bem como o histórico de empréstimos.
