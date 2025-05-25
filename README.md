@@ -1,1 +1,4 @@
-# projeto_estruturadedados
+# Projeto Biblioteca
+
+*Sistema de Biblioteca*
+INTEGRANTES: Gabriel Veloso Barbosa(RA:1990821), Gabriela dos Santos de Lima(RA:2014108), Gustavo Lima dos Santos (RA:1992035), Luigi Gabriel da Silva Lima(RA:2009016).
